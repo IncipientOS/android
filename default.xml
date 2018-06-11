@@ -20,7 +20,7 @@
 
   <!-- AOSP Projects -->
 
-  <project path="build" name="ROM-Jeremy/android_build" groups="pdk">
+  <project path="build" name="ROM-Jeremy/android_build-2" groups="pdk">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
