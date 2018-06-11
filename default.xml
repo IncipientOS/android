@@ -496,14 +496,14 @@
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" remote="aosp" />
   
   <!-- The Good Stuff -->
-  <project name="ROM-Jeremy/UBERTC" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="master" />
-  <project name="ROM-Jeremy/android_frameworks_base-1" path="frameworks/base" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" revision="cm-14.1" />
-  <project name="UberSlim/android_kernel_lge_sd4xx-common" path="kernel/lge/sd4xx-common" revision="14.1-test" />
-  <project name="LG-SD4XX/android_device_lge_sd4xx-common" path="device/lge/sd4xx-common" revision="cm-14.1" />
-  <project name="LG-SD4XX/android_device_lge_sf340n" path="device/lge/sf340n" revision="cm-14.1" />
-  <project name="LG-SD4XX/android_vendor_lge_sf340n" path="vendor/lge/sf340n" revision="gps-test" />
-  <project name="LG-SD4XX/android_vendor_lge_sd4xx-common" path="vendor/lge/sd4xx-common" revision="cm-14.1" />
+  <project name="ROM-Jeremy/UBERTC" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="github" revision="master" />
+  <project name="ROM-Jeremy/android_frameworks_base-1" path="frameworks/base" remote="github" revision="cm-14.1" />
+  <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
+  <project name="UberSlim/android_kernel_lge_sd4xx-common" path="kernel/lge/sd4xx-common" remote="github" revision="14.1-test" />
+  <project name="LG-SD4XX/android_device_lge_sd4xx-common" path="device/lge/sd4xx-common" remote="github" revision="cm-14.1" />
+  <project name="LG-SD4XX/android_device_lge_sf340n" path="device/lge/sf340n" remote="github" revision="cm-14.1" />
+  <project name="LG-SD4XX/android_vendor_lge_sf340n" path="vendor/lge/sf340n" remote="github" revision="gps-test" />
+  <project name="LG-SD4XX/android_vendor_lge_sd4xx-common" path="vendor/lge/sd4xx-common" remote="github" revision="cm-14.1" />
 
   <include name="snippets/cm.xml" />
 
