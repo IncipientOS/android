@@ -508,7 +508,7 @@
   <project name="ROM-Jeremy/android_frameworks_base-1" path="frameworks/base" remote="github" revision="cm-14.1" />
   <project name="ROM-Jeremy/UBERTC" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" remote="github" revision="master" />
   <project name="TheMuppets/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="cm-14.1" />
-  <project name="UberSlim/android_kernel_lge_sd4xx-common" path="kernel/lge/sd4xx-common" remote="github" revision="cm-14.1" />
+  <project name="UberSlim/android_kernel_lge_sd4xx-common" path="kernel/lge/sd4xx-common" remote="github" revision="cm-14.1-64" />
 
   <include name="snippets/cm.xml" />
 
