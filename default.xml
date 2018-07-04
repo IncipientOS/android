@@ -508,6 +508,10 @@
   <!-- ThemeInterfacer -->
   <project path="packages/services/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
   
+  <!-- DUI -->
+  <project path="external/DUtils" name="IncipientOS/android_external_DUtils" remote="github" revision="n" />
+  <project path="packages/apps/DUI" name="IncipientOS/android_packages_apps_DUI" remote="github" revision="n" />
+  
   <include name="snippets/cm.xml" />
 
 </manifest>
