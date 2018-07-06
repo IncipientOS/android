@@ -24,6 +24,9 @@ Give proper permissions to repo binary:
 Create a directory for IncipientOS:
 
     mkdir incipient
+    
+Navigate to the new directory you just made:
+
     cd incipient
 
 Time to initialize the local repository:
@@ -34,8 +37,8 @@ Now we sync the source:
 
     repo sync
 
-Build The Project
------------------
+Compile IncipientOS
+-------------------
 
 From the root directory of incipient, setup the build environment:
 
