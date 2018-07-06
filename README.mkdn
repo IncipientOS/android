@@ -1,7 +1,4 @@
-<img src="https://raw.githubusercontent.com/ROM-Jeremy/android/cm-14.1/inos.png">
-
-IncipientOS
-===========
+<img src="https://raw.githubusercontent.com/ROM-Jeremy/android/cm-14.1/logo.png">
 
 Getting Started
 ---------------
