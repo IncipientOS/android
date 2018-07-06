@@ -3,13 +3,49 @@
 Getting Started
 ---------------
 
-To get started with Android/IncipientOS, you'll need to get
-familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
+Before you get started, you'll need to get familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the IncipientOS trees, use a command like this:
+Make a directory for the repo binary:
 
-    repo init -u git://github.com/IncipientOS/android.git -b cm-14.1
+    mkdir ~/bin
 
-Then to sync up:
+Add directory for the repo binary to path:
+
+    PATH=~/bin:$PATH
+
+Download repo binary and place it in the proper directory:
+
+    curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+Give proper permissions to repo binary:
+
+    chmod a+x ~/bin/repo
+
+Create a directory for IncipientOS:
+
+    mkdir incipient
+    cd incipient
+
+Time to initialize the local repository:
+
+    repo init -u git://github.com/IncipientOS/android.git -b inos-n
+
+Now we sync the source:
 
     repo sync
+
+Build The Project
+-----------------
+
+From the root directory of incipient, setup the build environment:
+
+    . build/envsetup.sh
+
+Choose the device you are building for using:
+
+    lunch
+
+Start the build:
+
+    mka bacon
+
