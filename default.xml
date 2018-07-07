@@ -625,7 +625,7 @@
   <project path="vendor/qcom/opensource/time-services" name="LineageOS/android_vendor_qcom_opensource_time-services" />
   
   <!-- IncipientOS -->
-  <project path="android" name="IncipientOS/android" />
+  <project path="android" name="IncipientOS/android" remote="github" revision="inos-n" />
   <project path="frameworks/base" name="IncipientOS/android_frameworks_base" remote="github" revision="inos-n" />
   <project path="frameworks/native" name="IncipientOS/android_frameworks_native" remote="github" revision="inos-n" />
   <project path="packages/apps/Contacts" name="IncipientOS/android_packages_apps_Contacts" remote="github" revision="inos-n" />
