@@ -550,6 +550,7 @@
   <project path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" groups="pdk,darwin,arm" clone-depth="1" />
   <project path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" name="platform/prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" groups="pdk,darwin" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" groups="pdk,darwin,x86" clone-depth="1" />
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" clone-depth="1" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="LineageOS/android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" groups="pdk,linux,arm" clone-depth="1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" clone-depth="1" remote="aosp" />
@@ -638,10 +639,6 @@
   <project path="packages/apps/Settings" name="IncipientOS/android_packages_apps_Settings" remote="github" revision="inos-n" />
   <project path="system/sepolicy" name="IncipientOS/android_system_sepolicy" remote="github" revision="inos-n" />
   <project path="vendor/cm" name="IncipientOS/android_vendor_cm" remote="github" revision="inos-n" />
-
-  <!-- UBERTC -->
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="ROM-Jeremy/UBERTC" remote="github" revision="uber-4.9-arm64" />
-  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-5.4" name="ROM-Jeremy/UBERTC" remote="github" revision="uber-5.4-arm64" />
 
   <!-- DUI -->
   <project path="external/DUtils" name="IncipientOS/android_external_DUtils" remote="github" revision="inos-n" />
