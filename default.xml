@@ -573,6 +573,9 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" clone-depth="1" remote="aosp" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" clone-depth="1" remote="aosp" />
+  
+  <!-- SDCLANG -->
+  <project path="vendor/qcom/sdclang-3.8/linux-x86" name="IncipientOS/android_vendor_qcom_sdclang-3.8_linux-x86" remote="github" revision="inos-n" />
 
   <!-- System -->
   <project path="system/bt" name="LineageOS/android_system_bt" groups="pdk" />
