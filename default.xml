@@ -637,10 +637,12 @@
   <project path="packages/apps/CMParts" name="IncipientOS/android_packages_apps_CMParts" remote="github" revision="inos-n" />
   <project path="packages/apps/Dialer" name="IncipientOS/android_packages_apps_Dialer" remote="github" revision="inos-n" />
   <project path="packages/apps/ExactCalculator" name="IncipientOS/android_packages_apps_ExactCalculator" remote="github" revision="inos-n" />
+  <project path="packages/apps/OmniSwitch" name="IncipientOS/android_packages_apps_OmniSwitch" remote="github" revision="inos-n" />
   <project path="packages/apps/PackageInstaller" name="IncipientOS/android_packages_apps_PackageInstaller" remote="github" revision="inos-n" />
   <project path="packages/apps/PhoneCommon" name="IncipientOS/android_packages_apps_PhoneCommon" remote="github" revision="inos-n" />
   <project path="packages/apps/Settings" name="IncipientOS/android_packages_apps_Settings" remote="github" revision="inos-n" />
   <project path="system/sepolicy" name="IncipientOS/android_system_sepolicy" remote="github" revision="inos-n" />
+  <project path="packages/apps/SlimRecents" name="IncipientOS/android_packages_apps_SLimRecents" remote="github" revision="inos-n" />
   <project path="vendor/cm" name="IncipientOS/android_vendor_cm" remote="github" revision="inos-n" />
 
   <!-- DUI -->
