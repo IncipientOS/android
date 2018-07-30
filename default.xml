@@ -642,7 +642,7 @@
   <project path="packages/apps/PhoneCommon" name="IncipientOS/android_packages_apps_PhoneCommon" remote="github" revision="inos-n" />
   <project path="packages/apps/Settings" name="IncipientOS/android_packages_apps_Settings" remote="github" revision="inos-n" />
   <project path="system/sepolicy" name="IncipientOS/android_system_sepolicy" remote="github" revision="inos-n" />
-  <project path="packages/apps/SlimRecents" name="IncipientOS/android_packages_apps_SLimRecents" remote="github" revision="inos-n" />
+  <project path="packages/apps/SlimRecents" name="IncipientOS/android_packages_apps_SlimRecents" remote="github" revision="inos-n" />
   <project path="vendor/cm" name="IncipientOS/android_vendor_cm" remote="github" revision="inos-n" />
 
   <!-- DUI -->
