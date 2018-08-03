@@ -450,7 +450,6 @@
   <!-- Miscellaneous -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" remote="aosp" />
   <project path="art" name="LineageOS/android_art" groups="pdk" />
-  <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="dalvik" name="LineageOS/android_dalvik" groups="pdk-cw-fs,pdk-fs" />
@@ -630,6 +629,7 @@
   
   <!-- IncipientOS -->
   <project path="android" name="IncipientOS/android" remote="github" revision="inos-n" />
+  <project path="bionic" name="IncipientOS/android_bionic" remote="github" revision="inos-n" />
   <project path="frameworks/base" name="IncipientOS/android_frameworks_base" remote="github" revision="inos-n" />
   <project path="frameworks/native" name="IncipientOS/android_frameworks_native" remote="github" revision="inos-n" />
   <project path="packages/apps/Contacts" name="IncipientOS/android_packages_apps_Contacts" remote="github" revision="inos-n" />
