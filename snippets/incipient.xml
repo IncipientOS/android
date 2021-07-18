@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <project path="android" name="IncipientOS/android" remote="github" revision="incipient-r" />
+  <project path="frameworks/base" name="IncipientOS/android_frameworks_base" remote="github" revision="incipient-r" />    
+  <project path="packages/apps/Settings" name="IncipientOS/android_packages_apps_Settings" remote="github" revision="incipient-r" />
+  <project path="vendor/lineage" name="IncipientOS/android_vendor_lineage" remote="github" revision="incipient-r" />
+  
+</manifest>
