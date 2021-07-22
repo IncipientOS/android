@@ -2,8 +2,13 @@
 <manifest>
 
   <project path="android" name="IncipientOS/android" remote="github" revision="incipient-r" />
-  <project path="frameworks/base" name="IncipientOS/android_frameworks_base" remote="github" revision="incipient-r" />    
+  <project path="art" name="LineageOS/android_art" remote="github" revision="incipient-r" />
+  <project path="bionic" name="LineageOS/android_bionic" remote="github" revision="incipient-r" />
+  <project path="frameworks/base" name="IncipientOS/android_frameworks_base" remote="github" revision="incipient-r" />  
+  <project path="frameworks/native" name="LineageOS/android_frameworks_native" remote="github" revision="incipient-r" />  
+  <project path="lineage-sdk" name="LineageOS/android_lineage-sdk" remote="github" revision="incipient-r" />
   <project path="packages/apps/Settings" name="IncipientOS/android_packages_apps_Settings" remote="github" revision="incipient-r" />
+  <project path="packages/apps/ThemePicker" name="LineageOS/android_packages_apps_ThemePicker" remote="github" revision="incipient-r" />
   <project path="vendor/lineage" name="IncipientOS/android_vendor_lineage" remote="github" revision="incipient-r" />
   
 </manifest>
