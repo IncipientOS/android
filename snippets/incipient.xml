@@ -9,6 +9,7 @@
   <project path="lineage-sdk" name="IncipientOS/android_lineage-sdk" remote="github" revision="incipient-r" />
   <project path="packages/apps/Settings" name="IncipientOS/android_packages_apps_Settings" remote="github" revision="incipient-r" />
   <project path="packages/apps/ThemePicker" name="IncipientOS/android_packages_apps_ThemePicker" remote="github" revision="incipient-r" />
+  <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="IncipientOS/android_clang-12.0.5" remote="github" revision="incipient-r" />
   <project path="vendor/lineage" name="IncipientOS/android_vendor_lineage" remote="github" revision="incipient-r" />
   
 </manifest>
