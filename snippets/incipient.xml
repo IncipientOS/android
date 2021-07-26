@@ -8,10 +8,13 @@
   <project path="frameworks/base" name="IncipientOS/android_frameworks_base" remote="github" revision="incipient-r" />  
   <project path="frameworks/native" name="IncipientOS/android_frameworks_native" remote="github" revision="incipient-r" />  
   <project path="lineage-sdk" name="IncipientOS/android_lineage-sdk" remote="github" revision="incipient-r" />
+  <project path="packages/apps/LineageParts" name="IncipientOS/android_packages_apps_LineageParts" remote="github" revision="incipient-r" />
   <project path="packages/apps/Settings" name="IncipientOS/android_packages_apps_Settings" remote="github" revision="incipient-r" />
   <project path="packages/apps/ThemePicker" name="IncipientOS/android_packages_apps_ThemePicker" remote="github" revision="incipient-r" />
+  <project path="packages/overlays/Lineage" name="IncipientOS/android_packages_overlays_Lineage" remote="github" revision="incipient-r" />
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="IncipientOS/android_clang-12.0.5" remote="github" revision="incipient-r" />
   <project path="system/core" name="IncipientOS/android_system_core" remote="github" revision="incipient-r" />
   <project path="vendor/lineage" name="IncipientOS/android_vendor_lineage" remote="github" revision="incipient-r" />
-  
+  <project path="vendor/support" name="IncipientOS/android_vendor_support" remote="github" revision="incipient-r" />
+
 </manifest>
