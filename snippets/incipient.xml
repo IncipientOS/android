@@ -15,6 +15,5 @@
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="IncipientOS/android_clang-12.0.5" remote="github" revision="incipient-r" />
   <project path="system/core" name="IncipientOS/android_system_core" remote="github" revision="incipient-r" />
   <project path="vendor/lineage" name="IncipientOS/android_vendor_lineage" remote="github" revision="incipient-r" />
-  <project path="vendor/support" name="IncipientOS/android_vendor_support" remote="github" revision="incipient-r" />
 
 </manifest>
