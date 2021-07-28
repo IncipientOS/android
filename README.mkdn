@@ -5,41 +5,41 @@ Getting Started
 
 Before you get started, you'll need to get familiar with [Git and Repo](https://source.android.com/source/using-repo.html).
 
-Install dependencies:
+**Install dependencies:**
 
     sudo apt install bc bison build-essential ccache curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline-dev lib32z1-dev liblz4-tool libncurses5 libncurses5-dev libsdl1.2-dev libssl-dev libxml2 libxml2-utils lzop pngcrush rsync schedtool squashfs-tools xsltproc zip zlib1g-dev
 
-Create new directories:
+**Create new directories:**
 
     mkdir -p ~/bin
     mkdir -p ~/android/incipient
 
-Download repo binary and make it executable:
+**Download repo binary and make it executable:**
 
     curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
     chmod a+x ~/bin/repo
 
-Configure git:
+**Configure git:**
 
     git config --global user.email "you@example.com"
     git config --global user.name "Your Name"
 
-Navigate to the directory you created earlier:
+**Navigate to the directory you created earlier:**
 
     cd ~/android/incipient
 
-Time to initialize the local repository:
+**Time to initialize the local repository:**
 
     repo init -u git://github.com/IncipientOS/android.git -b incipient-r
 
-Now we sync the source:
+**Now we sync the source:**
 
     repo sync
 
 Compile IncipientOS
 -------------------
 
-From the root directory of incipient, setup the build environment:
+**From the root directory of incipient, setup the build environment:**
 
     . build/envsetup.sh
     
