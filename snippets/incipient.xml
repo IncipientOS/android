@@ -14,7 +14,7 @@
   <project path="packages/overlays/Lineage" name="IncipientOS/android_packages_overlays_Lineage" remote="github" revision="incipient-r" />
   <project path="prebuilts/clang/host/linux-x86/clang-r416183b" name="IncipientOS/android_clang-12.0.5" remote="github" revision="incipient-r" />
   <project path="system/core" name="IncipientOS/android_system_core" remote="github" revision="incipient-r" />
-  <project name="vendor_foss" path="BlissRoms-x86/vendor/foss" remote="github" revision="foss-minimal" />
+  <project path="vendor/foss" name="BlissRoms-x86/vendor_foss" remote="github" revision="foss-minimal" />
   <project path="vendor/lineage" name="IncipientOS/android_vendor_lineage" remote="github" revision="incipient-r" />
 
 </manifest>
