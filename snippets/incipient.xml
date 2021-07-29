@@ -4,7 +4,6 @@
   <project path="android" name="IncipientOS/android" remote="github" revision="incipient-r" />
   <project path="art" name="IncipientOS/android_art" remote="github" revision="incipient-r" />
   <project path="bionic" name="IncipientOS/android_bionic" remote="github" revision="incipient-r" />
-  <project path="external/libcxx" name="IncipientOS/android_external_libcxx" remote="github" revision="incipient-r" />
   <project path="frameworks/base" name="IncipientOS/android_frameworks_base" remote="github" revision="incipient-r" />  
   <project path="frameworks/native" name="IncipientOS/android_frameworks_native" remote="github" revision="incipient-r" />  
   <project path="lineage-sdk" name="IncipientOS/android_lineage-sdk" remote="github" revision="incipient-r" />
