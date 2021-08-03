@@ -8,6 +8,7 @@
   <project path="frameworks/base" name="IncipientOS/android_frameworks_base" remote="github" revision="incipient-r" />  
   <project path="frameworks/native" name="IncipientOS/android_frameworks_native" remote="github" revision="incipient-r" />  
   <project path="lineage-sdk" name="IncipientOS/android_lineage-sdk" remote="github" revision="incipient-r" />
+  <project path="packages/apps/Browser" name="IncipientOS/android_packages_apps_Browser" remote="github" revision="incipient-r" />
   <project path="packages/apps/LineageParts" name="IncipientOS/android_packages_apps_LineageParts" remote="github" revision="incipient-r" />
   <project path="packages/apps/Settings" name="IncipientOS/android_packages_apps_Settings" remote="github" revision="incipient-r" />
   <project path="packages/apps/ThemePicker" name="IncipientOS/android_packages_apps_ThemePicker" remote="github" revision="incipient-r" />
