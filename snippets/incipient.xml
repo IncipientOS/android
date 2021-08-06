@@ -6,7 +6,8 @@
   <project path="bionic" name="IncipientOS/android_bionic" remote="github" revision="incipient-r" />
   <project path="external/libcxx" name="IncipientOS/android_external_libcxx" remote="github" revision="incipient-r" />
   <project path="frameworks/base" name="IncipientOS/android_frameworks_base" remote="github" revision="incipient-r" />  
-  <project path="frameworks/native" name="IncipientOS/android_frameworks_native" remote="github" revision="incipient-r" />  
+  <project path="frameworks/native" name="IncipientOS/android_frameworks_native" remote="github" revision="incipient-r" /> 
+  <project path="frameworks/support/lottie" name="IncipientOS/android_frameworks_support_lottie" remote="github" revision="incipient-r" /> 
   <project path="lineage-sdk" name="IncipientOS/android_lineage-sdk" remote="github" revision="incipient-r" />
   <project path="packages/apps/Browser" name="IncipientOS/android_packages_apps_Browser" remote="github" revision="incipient-r" />
   <project path="packages/apps/LineageParts" name="IncipientOS/android_packages_apps_LineageParts" remote="github" revision="incipient-r" />
