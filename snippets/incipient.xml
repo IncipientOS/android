@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="eleven" />
+
+  <remote name="pixel"
+          fetch="https://github.com/PixelExperience"
+          revision="eleven"
+          review="gerrit.pixelexperience.org" />
+
   <project path="android" name="IncipientOS/android" remote="github" revision="incipient-r" />
   <project path="art" name="IncipientOS/android_art" remote="github" revision="incipient-r" />
   <project path="bionic" name="IncipientOS/android_bionic" remote="github" revision="incipient-r" />
@@ -21,6 +30,10 @@
   <project path="system/security" name="IncipientOS/android_system_security" remote="github" revision="incipient-r" />
   <project path="vendor/lineage" name="IncipientOS/android_vendor_lineage" remote="gitlab" revision="incipient-r" />
   <project path="vendor/prebuilts" name="IncipientOS/android_vendor_prebuilts" remote="github" revision="incipient-r" />
+  
+  <!-- FaceUnlock -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pixel" />
   
   <!-- OpenGapps -->
   <remote name="opengapps-gitlab" fetch="https://gitlab.opengapps.org/opengapps/"  />
